@@ -1,6 +1,7 @@
 import AboutUs from './components/aboutus/aboutus'
 import Introduction from './components/introduction/introduction'
 import Navbar from './components/navbar'
+import Pricing from './components/pricing/pricing'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
     <Navbar />
    <div className="pt-30"><Introduction /></div>
    <AboutUs />
+   <div className="py-30"><Pricing /></div>
    </div>
   )
 }
